@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rundle"
+version = "0.0.1"
+description = "Provider-agnostic inference routing"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{ name = "Dmitriy Burenok", email = "dmitriyburenok@gmail.com" }]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/dburenok/rundle"
